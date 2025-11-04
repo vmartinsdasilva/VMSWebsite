@@ -1,0 +1,61 @@
+html{
+    scroll-behavior:smooth;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #fbd3ff;
+  color: #222;
+  margin: 40px;
+}
+h1 {
+  color: #6a3373;
+  letter-spacing: 2px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: rgb(265, 161, 265);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: fff;
+}
+.projects {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+.card {
+  background: #eee;
+  padding: 1rem;
+  border-radius: 8px;
+}
+#projects img {
+  width: 200px;        /* or whatever size you want */
+  height: auto;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+
+.column {
+  flex: 1;
+  min-width: 200px; /* Prevents columns from getting too narrow */
+}
+
+.column img {
+  width: 100%;      /* Makes image fill its column */
+  height: 300px;    /* Fixed height for uniform size */
+  object-fit: cover; /* Crops image to fit without distortion */
+  border-radius: 15px; /* Optional: rounded corners */
+  padding: 1rem;
+}
