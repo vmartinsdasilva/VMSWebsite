@@ -13,11 +13,11 @@ h1 {
 }
 nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.2fr 1fr 0.2fr 0.2fr;
     gap: 20px;
-    background-color: rgb(265, 161, 265);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 1rem;
+    text-align: end;
 }
 a{
     text-decoration: none;
@@ -29,9 +29,15 @@ a{
   justify-content: space-around;
 }
 .card {
-  background: #eee;
+  background: #f1f5de;
   padding: 1rem;
   border-radius: 8px;
+}
+#about{
+  background-color: #eee;
+  padding: 4% ;
+  width: 20%;
+  float: right;
 }
 #projects img {
   width: 200px;        /* or whatever size you want */
@@ -53,9 +59,10 @@ a{
 }
 
 .column img {
-  width: 100%;      /* Makes image fill its column */
+  width: 90%;      /* Makes image fill its column */
   height: 300px;    /* Fixed height for uniform size */
   object-fit: cover; /* Crops image to fit without distortion */
-  border-radius: 15px; /* Optional: rounded corners */
+  border-radius: 25px; /* Optional: rounded corners */
   padding: 1rem;
+  margin: 1%;
 }
