@@ -218,6 +218,12 @@ a:hover {
   margin: 1%;
 }
 
+#iframe {
+  display: flex;
+  justify-content:center;
+}
+
+
 /* =====================================================
                       MOBILE STYLES
    ===================================================== */
@@ -226,7 +232,7 @@ a:hover {
   body {
     font-size: 16px;
     line-height: 1.6rem;
-    margin: 20px;
+    margin: 10px;
   }
 
   nav {
@@ -280,7 +286,6 @@ a:hover {
   flex-direction: column;
 }
 
-}
 .case-studies h2{
   flex: 1;
 }
@@ -346,3 +351,4 @@ a:hover {
   .column img {
     height: auto;
   }
+}
