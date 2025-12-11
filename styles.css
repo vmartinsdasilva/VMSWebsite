@@ -362,4 +362,14 @@ footer{
   .column img {
     height: auto;
   }
+
+  #iframe{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+  }
+  .iframe-item{
+    margin-bottom: 20px ;
+    width: 90%;
+  }
 }
