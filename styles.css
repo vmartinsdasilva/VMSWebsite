@@ -10,6 +10,12 @@ body {
   margin-top: 10px;
 }
 
+body.error {
+  background-color: #000000 !important;
+  color: #fbd3ff !important;
+  font-family: "Roboto Slab", serif;
+}
+
 h1 {
   color: #6c3375;
   letter-spacing: 2px;
@@ -168,7 +174,7 @@ a:hover {
 #about {
   margin: 5% 10% 20% 20%;
   padding: 4%;
-  width: 50%;
+  width: 55%;
 }
 
 #about h1 {
@@ -217,13 +223,18 @@ a:hover {
   padding: 1rem;
   margin: 1%;
 }
+.errortxt{
+text-align: center;
+}
 
 #iframe {
   display: flex;
   justify-content:center;
 }
 
-
+footer{
+  text-align: center;
+}
 /* =====================================================
                       MOBILE STYLES
    ===================================================== */
